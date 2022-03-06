@@ -79,7 +79,7 @@ function print_table_head_vereadores(){
  * @param[maior_voto_vereador] quantidade de votos que o vencedor obteve
  * @param[vereadores_vencedor] array contendo o(s) vencedor(es)
  */
-function print_table_vereadores($vereadores, $empate, &$maior_voto_vereador, &$vereadores_vencedor){
+function print_table_vereadores($vereadores, &$empate, &$maior_voto_vereador, &$vereadores_vencedor){
     foreach($vereadores as $v){
         if($v["votos"] > $maior_voto_vereador) {
             $empate[0] = false;
@@ -177,7 +177,7 @@ function print_table_head_prefeitos(){
  * @param[prefeitos_vencedor] array contendo o(s) vencedor(es)
  * @param[db_connection] conexão para o servidor mysql
  */
-function print_table_prefeitos($prefeitos, $empate, &$maior_voto_prefeito, &$prefeitos_vencedor, $db_connection){
+function print_table_prefeitos($prefeitos, &$empate, &$maior_voto_prefeito, &$prefeitos_vencedor, $db_connection){
     foreach($prefeitos as $p){
         if($p["votos"] > $maior_voto_prefeito) {
             $empate[1] = false;
