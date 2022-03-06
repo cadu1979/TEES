@@ -8,9 +8,9 @@
 
 /// nome do servidor mysql
 $servername = "localhost";
-/// username para acessar o servidor
+/// nome do usuário que possa acessar o servidor
 $username = "root";
-/// senha para acessar o servidor
+/// senha do usuário
 $password = "";
 /// nome do banco de dados
 $dbName = "urna";
