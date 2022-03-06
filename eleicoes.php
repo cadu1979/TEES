@@ -230,9 +230,13 @@ function print_vencedor_prefeito($empate, $prefeitos_vencedor, $maior_voto_prefe
             <div class='resultado'>
                 <div>Vencedores(as)</div>";
             
-            foreach($prefeitos_vencedor as $p)
-                echo $p."\n";
-            
+            foreach($prefeitos_vencedor as $p){
+                if(!next($prefeitos_vencedor)){
+                    echo $p.". \n";
+                }
+                else
+                    echo $p.", \n";
+            }
             echo "</div>";
         }
     }
