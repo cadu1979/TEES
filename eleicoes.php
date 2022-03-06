@@ -134,9 +134,14 @@ function print_vencedor_vereador($empate, $vereadores_vencedor, $maior_voto_vere
             <div class='resultado'>
                 <div>Vencedores(as)</div>";
             
-            foreach($vereadores_vencedor as $v)
-                echo $v."\n";
-            
+            foreach($vereadores_vencedor as $v) {
+                if(!next($vereadores_vencedor)){
+                    echo $v.". \n";
+                }
+                else
+                    echo $v.", \n";
+            }
+                
             echo "</div>";
         }
     }
