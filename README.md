@@ -8,7 +8,3 @@ A urna pode ser acessada pela página 'index.html' no diretório raiz.
 Se o usuário desejar conferir os resultados das eleições, ele deve acessar 'eleicoes.php'.
 
 A documentação doxygen dos arquivos php estão na pasta 'doxygen', a documentação jsdoc dos arquivos javascript estão na pasta 'js'.
-
-Observações:
-
-Foi feita a escolha de que caso ocorra um empate para vencedor das eleições, todos os candidatos nesse empate são mostrados como vencedores nas eleições.
