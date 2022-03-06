@@ -8,3 +8,5 @@ A urna pode ser acessada pela página 'index.html' no diretório raiz.
 Se o usuário desejar conferir os resultados das eleições, ele deve acessar 'eleicoes.php'.
 
 A documentação doxygen dos arquivos php estão na pasta 'doxygen', a documentação jsdoc dos arquivos javascript estão na pasta 'js', nas pastas 'util jsdoc' e 'script jsdoc'.
+
+Todo o código foi testado utilizando XAMPP.
