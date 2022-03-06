@@ -1,5 +1,7 @@
 # TEES
 
+Primeiramente deve-se criar um servidor apache para que seja possível utilizar a aplicação.
+
 O usuário deve executar o arquivo 'db.sql' em um banco de dados MySQL. 
 O código foi escrito considerando um banco de dados de nome 'urna', o que pode ser modificado na linha 16 do arquivo 'sql.php', assim como o nome do servidor, o username, e a senha.
 
