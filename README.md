@@ -7,6 +7,9 @@ Esse projeto foi feito considerando um banco de dados de nome 'urna', o que pode
 
 A urna pode ser acessada pela página 'index.html' no diretório raiz.
 Se o usuário desejar conferir os resultados das eleições, ele deve acessar 'eleicoes.php'.
+Se as configurações default da aplicação não forem modificadas, então os endereços de acesso às páginas acima são, respectivamente:
+localhost/index.html
+localhost/eleicoes.php
 
 A documentação doxygen dos arquivos php estão na pasta 'doxygen', a documentação jsdoc dos arquivos javascript estão na pasta 'js', nas pastas 'util jsdoc' e 'script jsdoc'.
 
