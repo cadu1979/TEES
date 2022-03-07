@@ -1,6 +1,6 @@
 # TEES
 
-Primeiramente deve-se criar um servidor apache para que seja possível utilizar a aplicação. Todos os arquivos devem ser extraídos no diretório do servidor.
+Primeiramente deve-se criar um servidor apache para que seja possível utilizar a aplicação. Todos os arquivos devem ser extraídos no servidor.
 Após esse passo, deve-se criar um banco de dados MySQL, e nele executar o arquivo 'db.sql'.
 Esse projeto foi feito considerando um banco de dados de nome 'urna', o que pode ser modificado na linha 16 do arquivo 'sql.php'. Também nesse arquivo podem ser modificados o nome do servidor, o nome do usuário que pode acessar o servidor, e a senha do usuário.
 
